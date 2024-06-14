@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Washington</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="main-title">Welcome to Washington</h1>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="olympia.html">Olympia</a></li>
+                <li><a href="bainbridge.html">Bainbridge Island</a></li>
+                <li><a href="seattle.html">Seattle</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>About Washington State</h2>
+        <p>Washington, the Evergreen State, is known for its stunning 
+            natural beauty and vibrant cities. Explore the capital, Olympia, the 
+            charming Bainbridge Island, and the bustling city of Seattle.</p>
+            <img src="images/washington.jpg">
+    </section>
+    <aside class="info-aside">
+        <h3>Intersting Facts</h3>
+        <ul>
+            <li>Mount Rainier is the highest peak in Washington.</li>
+            <li>Washington is home to the famous Space Needle in Seattle.</li>
+            <li>Washington produces more apples than any other state.</li>
+        </ul>
+    </aside>
+    <section>
+        <h2>Contact Us</h2>
+        <form>
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" placeholder="First Name" required>
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" placeholder="Last Name" required>
+            <label for="email">Email:</label>
+            <input type="text" id="email" placeholder="Email" required>
+            <label for="confirm-email">Confirm Email:</label>
+            <input type="text" id="confirm-email" placeholder="Confirm Email" required>
+            <label for="question">Your Question</label>
+            <textarea id="question" placeholder="Enter your Question" required></textarea>
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Washington State Tourism</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
